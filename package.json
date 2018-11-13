@@ -31,24 +31,25 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "execa": "^1.0.0",
-    "fs-extra": "^7.0.0",
+    "fs-extra": "^7.0.1",
     "gh-got": "^8.0.0",
-    "got": "^9.0.0",
-    "json-diff": "^0.5.2",
-    "lodash": "^4.17.5",
-    "markdown-table": "^1.1.1",
-    "node-fetch": "^2.1.1",
+    "got": "^9.3.2",
+    "json-diff": "^0.5.3",
+    "lodash": "^4.17.11",
+    "markdown-table": "^1.1.2",
+    "node-fetch": "^2.3.0",
     "normalize-url": "^4.0.0",
     "pluralize": "^7.0.0",
     "turndown": "^5.0.0",
-    "yargs": "^12.0.1"
+    "yargs": "^12.0.2"
   },
   "devDependencies": {
-    "proxyquire": "^2.0.0",
-    "semantic-release": "^15.1.2",
+    "proxyquire": "^2.1.0",
+    "semantic-release": "^15.11.0",
+    "speccy": "^0.8.4",
     "standard": "^12.0.0",
     "speccy": "^0.7.2",
-    "tap": "^12.0.0"
+    "tap": "^12.1.0"
   },
   "files": [
     "routes"

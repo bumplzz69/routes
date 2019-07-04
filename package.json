@@ -12,7 +12,9 @@
     "test": "tap --coverage 'test/**/*-test.js'",
     "update": "node bin/octokit-rest-routes.js update",
     "check": "node bin/octokit-rest-routes.js check",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -39,7 +41,8 @@
     "normalize-url": "^4.0.0",
     "pluralize": "^7.0.0",
     "turndown": "^5.0.0",
-    "yargs": "^13.1.0"
+    "yargs": "^13.1.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "proxyquire": "^2.0.0",
@@ -49,5 +52,6 @@
   },
   "files": [
     "routes"
-  ]
+  ],
+  "snyk": true
 }
